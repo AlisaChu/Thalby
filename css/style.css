@@ -117,7 +117,7 @@ ul li{
     margin: auto;
 }
 .article-decoration{
-    margin-bottom: 27px;
+    margin-bottom: 52px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -130,21 +130,13 @@ ul li{
     line-height: 23px;
     text-align: center;
 }
-.foto-banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-width: 1124px;
-    margin-top: 52px;
-}
 .foto-text{
+    text-align: center;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
-    width: 156px;
     margin-bottom: 17px;
+    max-width: 156px;
 }
 .foto-text-second{
     font-weight: 400;
@@ -153,17 +145,36 @@ ul li{
     text-align: center;
     margin-bottom: 10px;
 }
-.img{
-    margin-right: 63px;
-    margin-bottom: 27px;
-}
-.foto-text-link{
+.add {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
+.link-position{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.foto-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1124px;
+    margin: auto;
+}
+.foto-position {
+    max-width: 309px;
+    margin: auto;
+}
+.img {
+    height: 429px;
+    width: 302px;
+    margin-bottom: 27px;
+}
+
 
 
 
