@@ -515,4 +515,6 @@ header .nav div li{
 .owl-dots .owl-dot.active span{
     background-color: #D399FF;
 }
-
+.float{
+    float: right;
+}

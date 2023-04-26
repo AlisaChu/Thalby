@@ -2,11 +2,10 @@
     .header{
         display: block;
     }
-    .header .nav div li {
-        display: none;
+    .float{
+        display: flex;
+        margin-right: 100px;
     }
-
-
     .nav__list-item {
         position: relative;
         display: block;
@@ -76,19 +75,6 @@
         left: 0;
         width: 100%;
     }
-    li:nth-child(5) {
-        float: none;
-
-    }
-    li:nth-child(6) {
-        float: none;
-
-    }
-    li:nth-child(7) {
-        float: none;
-
-    }
-
     .banner-text {
         font-size: 40px;
     }
@@ -453,6 +439,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
 
     .people,
     .people-second {
