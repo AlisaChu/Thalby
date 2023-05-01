@@ -1,0 +1,75 @@
+$color1: #21F7EC;
+$color2: #33D3BC;
+$color3: #18A5C6;
+$color4: #D38F62;
+$color5: #F94C43;
+$color6: #D399FF;
+
+/* Mixins */
+
+@mixin circle($bg-color) {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: $bg-color;
+}
+
+/* Styles */
+
+.some {
+  padding: 190px 0 163px;
+
+  .some-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+  }
+}
+
+.features_items {
+  margin-top: 69px;
+  column-count: 3;
+
+  .features_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    + .features_item {
+      margin-top: 111px;
+    }
+
+    &-circle {
+      @include circle($color1);
+    }
+
+    &-text {
+      margin-top: 25px;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35px;
+      color: #000000;
+    }
+  }
+
+  .circle2 {
+    @include circle($color2);
+  }
+
+  .circle3 {
+    @include circle($color3);
+  }
+
+  .circle4 {
+    @include circle($color4);
+  }
+
+  .circle5 {
+    @include circle($color5);
+  }
+
+  .circle6 {
+    @include circle($color6);
+  }
+}

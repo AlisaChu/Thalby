@@ -1,0 +1,99 @@
+// Variables
+$main-color: rgba(204, 204, 204, 0.3);
+$second-color: rgba(204, 204, 204, 0.6);
+$third-color: rgba(204, 204, 204, 0.3);
+$main-font-weight: 400;
+$main-font-size: 36px;
+$main-line-height: 42px;
+$main-margin-bottom: 31px;
+$main-text-align: left;
+
+// Main foto container
+.foto-container {
+  display: flex;
+  max-width: 1064px;
+  margin: auto;
+  padding-bottom: 51px;
+  padding-top: 51px;
+
+  // Background
+  &.background {
+    background: $main-color;
+  }
+
+  // People section
+  .people {
+    padding-right: 50px;
+    max-width: 532px;
+    margin: auto;
+
+    // Title
+    .title {
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      text-decoration-line: underline;
+      text-align: $main-text-align;
+    }
+
+    // Main text
+    .text {
+      font-weight: $main-font-weight;
+      font-size: $main-font-size;
+      line-height: $main-line-height;
+      text-align: $main-text-align;
+      margin-bottom: $main-margin-bottom;
+    }
+
+    // And
+    .and {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      margin-bottom: 31px;
+      text-align: $main-text-align;
+    }
+
+  }
+  .and-second {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 31px;
+    text-align: right;
+  }
+  .text-second {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    margin-bottom: 31px;
+  }
+  .title-second{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    text-align: right;
+  }
+  .people-second{
+    padding-left: 50px;
+    max-width: 532px;
+    margin: auto;
+    .title-second{
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      text-decoration-line: underline;
+      text-align: right;
+  }
+
+  }
+
+
+
+  // Third background
+  &.background-third {
+    background: $third-color;
+  }
+}

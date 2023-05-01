@@ -29,6 +29,7 @@ body {
     flex-direction: column;
   }
 
+
   &_title {
     font-weight: $font-weight-bold;
     font-size: 36px;
@@ -85,22 +86,10 @@ body {
     padding: 13px 5px 10px 8px;
     width: 100%;
   }
+}
 
-  &_subscribe {
-      margin-top: 16px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 7px 23px 10px;
-      line-height: 16px;
-      color: $white;
-      font-weight: 400;
-      font-size: 14px;
-      background: $primary-color;
-      border-radius: 100px;
-      border: none;
-    }
-  }
+
+
 
 
 .footer {
@@ -167,4 +156,18 @@ body {
     text-align: center;
     color: $white;
   }
+}
+.form_subscirbe {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 23px 10px;
+  line-height: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  background: #000000;
+  border-radius: 100px;
+  border: none;
 }

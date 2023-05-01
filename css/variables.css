@@ -1,0 +1,70 @@
+.foto-container {
+  display: flex;
+  max-width: 1064px;
+  margin: auto;
+  padding-bottom: 51px;
+  padding-top: 51px;
+}
+.foto-container.background {
+  background: rgba(204, 204, 204, 0.3);
+}
+.foto-container .people {
+  padding-right: 50px;
+  max-width: 532px;
+  margin: auto;
+}
+.foto-container .people .title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  text-align: left;
+}
+.foto-container .people .text {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: left;
+  margin-bottom: 31px;
+}
+.foto-container .people .and {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 31px;
+  text-align: left;
+}
+.foto-container.background-second {
+  background: rgba(204, 204, 204, 0.6);
+}
+.foto-container.background-second .people-second {
+  padding-left: 50px;
+  max-width: 532px;
+  margin: auto;
+}
+.foto-container.background-second .people-second .title-second {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  text-align: right;
+}
+.foto-container.background-second .people-second .text-second {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  margin-bottom: 31px;
+}
+.foto-container.background-second .people-second .and-second {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 31px;
+  text-align: right;
+}
+.foto-container.background-third {
+  background: rgba(204, 204, 204, 0.3);
+}
+
+/*# sourceMappingURL=variables.css.map */

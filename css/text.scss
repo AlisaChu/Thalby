@@ -1,0 +1,95 @@
+/* Define variables */
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+/* Define mixins */
+
+@mixin text-center {
+  text-align: center;
+}
+
+@mixin font-bold {
+  font-weight: 700;
+}
+
+@mixin font-regular {
+  font-weight: 400;
+}
+
+/* Define styles */
+
+.article {
+  padding-top: 60px;
+}
+
+.container-text {
+  max-width: 632px;
+  margin: auto;
+}
+
+.article-decoration {
+  margin-bottom: 52px;
+  @include font-bold;
+  font-size: 36px;
+  line-height: 42px;
+  @include text-center;
+}
+
+.article-text {
+  margin-bottom: 47px;
+  @include font-regular;
+  font-size: 20px;
+  line-height: 23px;
+  @include text-center;
+}
+
+.foto-text {
+  @include text-center;
+  @include font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 17px;
+  max-width: 156px;
+}
+
+.foto-text-second {
+  @include font-regular;
+  font-size: 17px;
+  line-height: 20px;
+  @include text-center;
+  margin-bottom: 10px;
+}
+
+.add {
+  @include font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  @include text-center;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.link-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1065px;
+  margin: auto;
+
+  .foto-position {
+    max-width: 309px;
+    margin: auto;
+
+    .img {
+      margin-bottom: 27px;
+    }
+  }
+}

@@ -1,34 +1,48 @@
-$beige_color: #F0EFEB;
-/*main*/
+$header-background: #F0EFEB;
+$header-padding: 90px 0 90px;
+$main-box-width: 599px;
+$row-width: 544px;
+$banner-text-font-weight: 700;
+$banner-text-font-size: 60px;
+$banner-text-line-height: 70px;
+$banner-text-second-margin-top: 42px;
+$banner-text-second-margin-bottom: 26px;
+$banner-text-second-font-weight: 400;
+$banner-text-second-font-size: 24px;
+$banner-text-second-line-height: 28px;
+
 .header_center {
-  background: $beige_color;
-  padding: 90px 0 90px;
+  background: $header-background;
+  padding: $header-padding;
   position: relative;
   overflow: hidden;
 }
+
 .main-box-foto{
-  max-width: 599px;
+  max-width: $main-box-width;
   display: flex;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 65%;
   transform: translateX(-40%);
   margin-bottom: 24px;
 }
+
 .row{
-  max-width: 544px;
+  max-width: $row-width;
   margin: 0;
 }
+
 .banner-text{
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 70px;
-}
-.banner-text-second{
-  margin-top: 42px;
-  margin-bottom: 26px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-weight: $banner-text-font-weight;
+  font-size: $banner-text-font-size;
+  line-height: $banner-text-line-height;
 }
 
+.banner-text-second{
+  margin-top: $banner-text-second-margin-top;
+  margin-bottom: $banner-text-second-margin-bottom;
+  font-weight: $banner-text-second-font-weight;
+  font-size: $banner-text-second-font-size;
+  line-height: $banner-text-second-line-height;
+}

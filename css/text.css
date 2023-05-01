@@ -1,0 +1,77 @@
+/* Define variables */
+/* Define mixins */
+/* Define styles */
+.article {
+  padding-top: 60px;
+}
+
+.container-text {
+  max-width: 632px;
+  margin: auto;
+}
+
+.article-decoration {
+  margin-bottom: 52px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.article-text {
+  margin-bottom: 47px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.foto-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 17px;
+  max-width: 156px;
+}
+
+.foto-text-second {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.add {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.link-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1065px;
+  margin: auto;
+}
+.foto-banner .foto-position {
+  max-width: 309px;
+  margin: auto;
+}
+.foto-banner .foto-position .img {
+  margin-bottom: 27px;
+}
+
+/*# sourceMappingURL=text.css.map */
