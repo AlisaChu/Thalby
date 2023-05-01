@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "mobile_menu.css";
+@import "style.css";
+@import "footer";
+@import "main";
+
+$main_font: 'Roboto', sans-serif;
+$main_color: #000000;
+$beige_color: #F0EFEB;
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  position: relative;
+
+}
+.logo {
+  @include transform(rotate(18deg));
+  position: absolute;
+  left: calc(50% - 40px);
+  top: 16px;
+  width: 80px;
+  align-items: center;
+  z-index: 99;
+}
+
+.header-nav-text {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-right: 28px;
+  .header-user_items{
+    display: inline-block;
+    margin-right: 15px;
+
+  }
+}
+header .nav div li{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-right: 28px;
+  padding: 16px 0;
+}
+
+
+

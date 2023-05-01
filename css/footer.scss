@@ -1,0 +1,170 @@
+// Variables
+$primary-color: #000000;
+$secondary-color: #A0A0A0;
+$white: #FFFFFF;
+$background-dark: #020202;
+$border-radius: 100px;
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// General styles
+body {
+  font-style: normal;
+  font-weight: $font-weight-normal;
+}
+
+// Contact
+.contact {
+  padding: 80px 0 88px;
+
+  &_inner {
+    @include flex-center;
+    flex-direction: column;
+  }
+
+  &_title {
+    font-weight: $font-weight-bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $primary-color;
+  }
+
+  &_text {
+    margin-top: 9px;
+    font-weight: $font-weight-bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: $primary-color;
+  }
+}
+
+.form {
+  width: 366px;
+  margin-top: 25px;
+
+  &_input-items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_input,
+  &_input-email {
+    border: 1px solid $primary-color;
+    padding: 12px 5px 11px 8px;
+    width: 153px;
+  }
+
+  &_input::placeholder,
+  &_input-email::placeholder {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: $secondary-color;
+  }
+
+  &_input:focus,
+  &_input-email:focus {
+    outline: none;
+  }
+
+  &_input_item {
+    margin-top: 18px;
+    display: flex;
+  }
+
+  &_input-email {
+    padding: 13px 5px 10px 8px;
+    width: 100%;
+  }
+
+  &_subscribe {
+      margin-top: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 7px 23px 10px;
+      line-height: 16px;
+      color: $white;
+      font-weight: 400;
+      font-size: 14px;
+      background: $primary-color;
+      border-radius: 100px;
+      border: none;
+    }
+  }
+
+
+.footer {
+  padding: 51px 0 16px;
+  background-color: $background-dark;
+
+  &_inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_socials {
+    width: 115px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_right-items {
+    display: flex;
+  }
+
+  &_right-text {
+    margin-bottom: 36px;
+    text-transform: capitalize;
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: $white;
+  }
+
+  &_right-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_right-item + &_right-item {
+    margin-top: 12px;
+  }
+
+  &_right-contact {
+    margin-left:
+            65px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_right-link {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: $white;
+  }
+
+  .help {
+    margin-top: 12px;
+  }
+
+  &_copy {
+    margin-top: 20px;
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: $white;
+  }
+}

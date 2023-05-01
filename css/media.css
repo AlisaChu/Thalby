@@ -349,7 +349,7 @@
     .logo {
         position: relative; /* Remove absolute positioning to allow logo to flow with other items */
         left: calc(50% - 40px);
-        top: 5px;
+        top: 23px;
         width: 45px;
         align-items: center;
     }
